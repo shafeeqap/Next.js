@@ -38,9 +38,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 Next.js
 --------
-1. Routing (static route, dynamic route,)
-2. Layouts 
-3. Route Handlers
+1. Routing (Static route, Dynamic route, Group route)
+2. Layout (Layout is a shared UI structure that allowes you to maintain consistent page elements), 
+   Nexted layout (specific layout)
+3. Route Handlers 
+   They allow you to create backend logic (like APIs) within your app using HTTP methods (GET, POST, etc.)
 4. React Server Components
 5. Data Fetching 
 6. Server Actions
