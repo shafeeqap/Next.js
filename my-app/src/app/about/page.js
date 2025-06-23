@@ -8,10 +8,10 @@ export default function AboutPage() {
 
   return (
     <div>
-      <h1>About Page</h1>;
+      <h1>About Page</h1>
       <button
         onClick={() => router.push("/")}
-        className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md"
+        className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:cursor-pointer"
       >
         Go Home
       </button>

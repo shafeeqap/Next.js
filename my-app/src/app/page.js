@@ -1,9 +1,15 @@
 import Image from "next/image";
+import ServerComponent from "./servercomponent/page";
+import ClientComponent from "./clientcomponent/page";
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+        
+        <ServerComponent />
+        <ClientComponent />
+        
         <Image
           className="dark:invert"
           src="/next.svg"
@@ -20,9 +26,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li className="tracking-[-.01em]">
-            Hello World
-          </li>
+          <li className="tracking-[-.01em]">Hello World</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
