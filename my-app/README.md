@@ -45,5 +45,11 @@ Next.js
    They allow you to create backend logic (like APIs) within your app using HTTP methods (GET, POST, etc.)
 4. React Server Components
 5. Data Fetching 
-6. Server Actions
+6. Server Actions 
 7. Authentication
+
+Supporting tools
+----------------
+1. JSON Placeholder fake API for testing.
+2. mockapi.io is a simple tool for generate custom data and perform operation on using RESTful interface.
+3. clerk.com - It using for authentication and manage your users. 
