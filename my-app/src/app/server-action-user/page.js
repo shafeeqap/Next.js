@@ -1,21 +1,4 @@
-import { revalidatePath } from "next/cache";
-
-
-async function updateUser(formData) {
-  "use server"; // directive
-  const name = formData.get("name");
-
-  const response = await fetch(
-    "https://685945e5138a18086dfdcad9.mockapi.io/users",
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name }),
-    }
-  );
-
-  revalidatePath("/users") // If you want the new user to appear after submission, you can call
-}
+import { updateUser } from "./actions";
 
 export default async function ServerUsersAction() {
   await new Promise((resolve) => setTimeout(resolve, 3000));
@@ -58,3 +41,5 @@ export default async function ServerUsersAction() {
     </div>
   );
 }
+
+
