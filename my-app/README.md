@@ -48,6 +48,7 @@ Next.js
 6. Server Actions 
 7. Authentication
 8. Protect Route using clerk authentication
+9. Session data handling
 
 Supporting tools
 ----------------

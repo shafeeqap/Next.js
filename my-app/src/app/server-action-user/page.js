@@ -1,6 +1,15 @@
 import { updateUser } from "./actions";
+import { auth, currentUser } from "@clerk/nextjs/server";
 
-export default async function ServerUsersAction() {
+export default async function UserServerAction() {
+  const authDetails = await auth();
+  const userDetails = await currentUser();
+  
+  console.log(authDetails);
+  console.log(userDetails);
+  
+  
+
   await new Promise((resolve) => setTimeout(resolve, 3000));
 
   const response = await fetch(
@@ -10,7 +19,10 @@ export default async function ServerUsersAction() {
 
   return (
     <div>
-      <form action={updateUser} className="w-96 bg-slate-300 shadow-lg rounded-lg p-6 border border-gray-300 my-5">
+      <form
+        action={updateUser}
+        className="w-96 bg-slate-300 shadow-lg rounded-lg p-6 border border-gray-300 my-5"
+      >
         <div className="flex-col items-center gap-4 mb-4">
           <label className="text-gray-700 font-medium w-20">Name</label>
           <input
@@ -41,5 +53,3 @@ export default async function ServerUsersAction() {
     </div>
   );
 }
-
-
