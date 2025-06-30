@@ -26,14 +26,14 @@ const Nav = ({ openNav }: Props) => {
     }, [])
 
     return (
-        <div className={`${navBgColor ? 'bg-blue-950 shadow-md' : 'fixed'} transition-all duration-200 h-[12vh] z-[1000] fixed w-full`}>
+        <div className={`${navBgColor ? 'bg-cyan-700 shadow-md' : 'fixed'} transition-all duration-200 h-[12vh] z-[1000] fixed w-full`}>
             <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
                 {/* Logo */}
                 <div className='flex items-center space-x-2 cursor-pointer'>
                     <div className='w-10 h-10 bg-rose-500 rounded-full flex flex-col items-center justify-center'>
                         <TbAirBalloon className='w-6 h-6 text-white' />
                     </div>
-                    <h1 className='text-xl md:text-2xl text-white uppercase font-bold'>Let's Go</h1>
+                    <h1 className='text-xl md:text-2xl text-white uppercase font-bold'>Let&apos;s Go</h1>
                 </div>
                 {/* NavLilnks */}
                 <div className='hidden lg:flex items-center space-x-10'>
@@ -50,7 +50,7 @@ const Nav = ({ openNav }: Props) => {
                 </div>
                 {/* button */}
                 <div className='flex items-center space-x-4'>
-                    <button className='md:px-12 md:py-2.5 px-8 py-2 text-black text-base bg-white hover:bg-gray-200 transition-all duration-200 '>Book Now</button>
+                    <button className='md:px-12 md:py-2.5 px-8 py-2 text-black text-base bg-white hover:bg-gray-200 hover:ring-2 hover:ring-offset-2 hover:ring-offset-gray-900 transition-all duration-200 '>Book Now</button>
                 </div>
                 {/* Burger Menu */}
                 <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer text-white lg:hidden' />
