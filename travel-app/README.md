@@ -34,3 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Supporting pakages
+------------------
+1. react-multi-carousel:- It is designed to display multiple items within a carousel and supports Server-Side Rendering (SSR). 
+2. swiper.js:- Users can swipe or navigate the content
+3. aos:- Animate on Scrol

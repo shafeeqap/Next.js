@@ -10,13 +10,13 @@ const WhyChoose = () => {
 
       <div className='grid grid-cols-1 w-[80%] mx-auto md:grid-cols-2 lg:grid-cols-3 gap-16 items-center mt-20'>
         {/* Why choose card */}
-        <div>
+        <div data-aos='fade-up' data-aos-anchor-placement="top-center">
           <WhyChooseCard image='/images/c1.svg' title='Best Price Guarantee' />
         </div>
-        <div>
+        <div data-aos='fade-up' data-aos-anchor-placement="top-center" data-aos-delay='150'>
           <WhyChooseCard image='/images/c2.svg' title='Easy & Quick Booking' />
         </div>
-        <div>
+        <div data-aos='fade-up' data-aos-anchor-placement="top-center" data-aos-delay='300'>
           <WhyChooseCard image='/images/c3.svg' title='Customer Care 24/7' />
         </div>
       </div>
