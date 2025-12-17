@@ -17,5 +17,5 @@ export async function updateUser(formData) {
     }
   );
 
-  revalidatePath("/users") // If you want the new user to appear after submission, you can call
+  revalidatePath("/users") // to update/revalidate the content.
 }

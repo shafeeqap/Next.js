@@ -11,7 +11,6 @@ const Destination = () => {
             <div className='mt-14 w-[80%] mx-auto'>
                 {/* Slider */}
                 <DestinationSlider />
-
             </div>
         </div>
     )

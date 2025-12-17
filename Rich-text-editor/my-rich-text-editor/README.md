@@ -35,8 +35,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+
 Tools & Packages Used:
-------------------
-1. react-multi-carousel:- It is designed to display multiple items within a carousel and supports Server-Side Rendering (SSR). 
-2. swiper.js:- Users can swipe or navigate the content
-3. aos:- Animate on Scrol
+--------------------------------
+1. tiptap docs: https://tiptap.dev/docs
+2. shadcn ui: https://ui.shadcn.com
