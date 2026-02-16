@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 import { TbAirBalloon } from 'react-icons/tb'
+import { HiOutlineRocketLaunch } from "react-icons/hi2";
 
 type Props = {
     openNav: () => void
@@ -31,7 +32,7 @@ const Nav = ({ openNav }: Props) => {
                 {/* Logo */}
                 <div className='flex items-center space-x-2 cursor-pointer'>
                     <div className='w-10 h-10 bg-rose-500 rounded-full flex flex-col items-center justify-center'>
-                        <TbAirBalloon className='w-6 h-6 text-white' />
+                        <HiOutlineRocketLaunch className='w-6 h-6 text-white' />
                     </div>
                     <h1 className='text-xl md:text-2xl text-white uppercase font-bold'>Let&apos;s Go</h1>
                 </div>
